@@ -1,0 +1,12 @@
+.section-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
