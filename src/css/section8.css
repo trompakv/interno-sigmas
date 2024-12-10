@@ -1,0 +1,104 @@
+.firsth {
+    display: flex;
+    justify-content: center;
+}
+
+.firstt {
+    display: flex;
+    justify-content: center;
+    font-family: "Jost";
+}
+
+body {
+    font-family: DM Serif Display;
+}
+
+.Kitchen_design {
+    display: inline-block;
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    max-width: 90%; 
+    text-align: left;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 387px;
+    padding: 20px;
+    width: 387px;
+height: 515px;
+gap: 0px;
+border-radius: 62px 62px 62px 62px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+.img1 {
+    width: 345px;
+    height: 296px;
+    top: -0.02px;
+    gap: 0px;
+    border-radius: 45px 45px 0px 0px;
+    opacity: 0px;
+
+}
+
+.Living_room {
+    display: inline-block;
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    max-width: 90%; 
+    text-align: left;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 387px;
+    padding: 20px;
+    width: 387px;
+height: 515px;
+gap: 0px;
+border-radius: 62px 62px 62px 62px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+.img2 {
+    width: 345px;
+    height: 296px;
+    top: -0.02px;
+    gap: 0px;
+    border-radius: 45px 45px 0px 0px;
+    opacity: 0px;
+}
+
+.Minimal_interior {
+    display: inline-block;
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    max-width: 90%; 
+    text-align: left;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 387px;
+    padding: 20px;
+    width: 387px;
+height: 515px;
+gap: 0px;
+border-radius: 62px 62px 62px 62px;
+border: 1px 0px 0px 0px;
+opacity: 0px;   
+}
+
+.img3 {
+    width: 345px;
+    height: 296px;
+    top: -0.02px;
+    gap: 0px;
+    border-radius: 45px 45px 0px 0px;
+    opacity: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+}

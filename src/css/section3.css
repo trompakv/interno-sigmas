@@ -1,0 +1,63 @@
+.phone {
+    width: 93px;
+    height: 93px;
+    top: 10.2px;
+    gap: 0px;
+    opacity: 0px;
+    }
+    
+    .blue {
+       background-color:#292F36;
+       color:white;
+       width: 263px;
+       height: 71px;
+       gap: 0px;
+       border-radius: 18px 18px 18px 18px;
+       border: 2px 2px 2px 2px;
+       opacity: 0px;
+       border-style: none;
+       cursor: pointer;
+       transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .greatbutton {
+    width: 24px;
+    height: 17px;
+    top: 27px;
+    left: 205px;
+    gap: 0px;
+    opacity: 0px;
+    
+    }
+    
+    .blue:hover {
+        color:#1a1a1a;
+        transition: 0.2s;
+        background-color: #ff6600;
+        color: white; 
+        transform: scale(0.95);
+    }  
+    
+    body {
+        font-family: DM Serif Display;
+    }
+    
+    .sec3 {
+    width: 592px;
+    height: 581px;
+    top: 26.8px;
+    gap: 0px;
+    opacity: 0px;
+    }
+    
+    .img1copy {
+        border-style: none;
+        border-bottom-left-radius: 123px;
+        border-top-right-radius: 326px;
+     }
+     
+     .img1copy {
+        position: absolute;
+        right: 0;
+        top: 0;
+     }
