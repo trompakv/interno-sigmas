@@ -18,6 +18,7 @@
 }
 
 .header__nav__link1:hover {
+  cursor: pointer;
   color: #cda274;
   font-weight: 400;
   font-size: 20px;
