@@ -11,6 +11,13 @@
 }
 
 .header__nav__link1 {
+  color: #292f36;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.header__nav__link1:hover {
   color: #cda274;
   font-weight: 400;
   font-size: 20px;
