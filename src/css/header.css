@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 120px;
+  }
+  
+  .header__nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header__nav__link1 {
+    color: #cda274;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  
+  .header__nav__link {
+    color: #292f36;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
