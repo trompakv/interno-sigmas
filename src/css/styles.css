@@ -39,6 +39,12 @@ body {
     font-family: "DM Serif Display", serif; */
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
 .container {
     width: 1230px;
     padding: 0 15px;
