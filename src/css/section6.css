@@ -1,0 +1,84 @@
+.recent-projects {
+    padding: 30px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recent-projects h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 47px;
+    text-align: center;
+
+    margin: 0 0 30px 0;
+}
+
+.recent-projects p {
+    color: #4d5053;
+
+    font-size: 22px;
+}
+
+.recent-project_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 70px 0 0 0;
+
+    gap: 60px 20px;
+}
+
+.recent-project_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.project-card_img {
+    border-radius: 0 80px 0 0;
+
+    width: 590px;
+    height: 661px;
+}
+
+.recent-project_card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-top: 24px;
+}
+
+.recent-project_card-info_text {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.recent-project_card-info_text h5 {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.recent-project_card-info button {
+    width: 70px;
+    height: 70px;
+
+    background: #f4f0ec;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

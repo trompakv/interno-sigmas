@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #292f36;
+
+    width: 100%;
+
+    padding: 100px 0 95px;
+
+    gap: 30px;
+
+    border-radius: 70px;
+}
+
+.form-content h2 {
+    font-size: 50px;
+    font-family: "DM Serif Display", serif;
+}
+.form-content p {
+    font-size: 22px;
+    font-family: "Jost", serif;
+}
+
+.form-content button {
+    padding: 24px 34px;
+
+    background: #cda274;
+
+    border-radius: 18px;
+
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

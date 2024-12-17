@@ -1,0 +1,66 @@
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2__text1 {
+  font-family: "DM Serif Display", serif;
+  color: #292f36;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.22px;
+  padding-bottom: 17px;
+}
+
+.gav {
+  color: #4d5053;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  padding-bottom: 48px;
+}
+
+.section2__div1__text2 {
+  width: 317px;
+}
+
+.section2__div2__text2 {
+  width: 297px;
+}
+
+.section2__div3__text2 {
+  width: 296px;
+}
+
+.stretch {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.section2__text {
+  color: #4d5053;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+}
+
+.img1:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 32px 14px rgba(0,0,0,0.75);
+}
+
+.img2:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 32px 14px rgba(0,0,0,0.75);
+}
+
+.img3:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 32px 14px rgba(0,0,0,0.75);
+}
