@@ -33,6 +33,15 @@
     -webkit-text-size-adjust: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cda274;
+    border-radius: 10px 0 0 10px;
+}
+
 body {
     font-family: "Jost", sans-serif;
     /* font-family: "Inter", sans-serif;
