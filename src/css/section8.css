@@ -1,32 +1,48 @@
-.firsth {
+.div2 {
+    gap: 20px;
+    flex-basis: calc((100%-20px) / 3);
+    padding: 0 50px;
+    
+  }
+
+.divsection {
     display: flex;
-    justify-content: center;
-    font-family: DM Serif Display;
-font-size: 48px;
-font-weight: 400;
-line-height: 62.4px;
-letter-spacing: 0.2199999988079071px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+    justify-content: space-between;
 }
 
-.first {
+.divsection2 {
     display: flex;
-    justify-content: center;
-    font-family: "Jost";
+    justify-content: space-between;
 }
-
-body {
-    font-family: DM Serif Display;
-}
-
-.Kitchen_design {
+  
+  .div1__h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.21px;
+    text-align: center;
+    color: #292f36;
+    padding-bottom: 20px;
+  }
+  
+  .div1__text {
+    width: 590px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.21px;
+    text-align: center;
+    margin: 0 auto;
+    color: #4d5053;
+    padding-bottom: 70px;
+  }
+  
+  .Kitchen_design {
     display: inline-block;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     padding: 10px;
-    max-width: 90%; 
+    max-width: 90%;
     text-align: left;
     margin: 10px auto;
     box-sizing: border-box;
@@ -34,28 +50,25 @@ body {
     width: 387px;
     padding: 20px;
     width: 387px;
-height: 515px;
-gap: 0px;
-border-radius: 62px 62px 62px 62px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-}
-
-.img1 {
+    height: 515px;
+    border-radius: 62px 62px 62px 62px;
+    border: 1px 0px 0px 0px;
+  }
+  
+  .img1 {
     width: 345px;
     height: 296px;
     top: -0.02px;
     gap: 0px;
     border-radius: 45px 45px 0px 0px;
     opacity: 0px;
-
-}
-
-.Living_room {
+  }
+  
+  .Living_room {
     display: inline-block;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     padding: 10px;
-    max-width: 90%; 
+    max-width: 90%;
     text-align: left;
     margin: 10px auto;
     box-sizing: border-box;
@@ -63,56 +76,47 @@ opacity: 0px;
     width: 387px;
     padding: 20px;
     width: 387px;
-height: 515px;
-gap: 0px;
-border-radius: 62px 62px 62px 62px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-text-align: left;
-}
-
-.img2 {
+    height: 515px;
+    gap: 0px;
+    border-radius: 62px 62px 62px 62px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-align: left;
+  }
+  
+  .img2 {
     width: 345px;
     height: 296px;
     top: -0.02px;
     gap: 0px;
     border-radius: 45px 45px 0px 0px;
     opacity: 0px;
-}
-
-
-
-.img3 {
+  }
+  
+  .img3 {
     width: 345px;
     height: 296px;
     top: -0.02px;
     gap: 0px;
     border-radius: 45px 45px 0px 0px;
     opacity: 0px;
-}
-
-.container {
-    display: flex;
-    justify-content:space-between;
-}
-
-
-
-.arrow {
+  }
+  
+  .arrow {
     width: 40px;
     height: 30px;
     top: 9.59px;
     left: 293px;
     gap: 0px;
-    opacity: 0px;    
+    opacity: 0px;
     text-align: left;
-}
-
-.Minimal_interior {
+  }
+  
+  .Minimal_interior {
     display: inline-block;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     padding: 10px;
-    max-width: 90%; 
+    max-width: 90%;
     text-align: left;
     margin: 10px auto;
     box-sizing: border-box;
@@ -120,53 +124,44 @@ text-align: left;
     width: 387px;
     padding: 20px;
     width: 387px;
-height: 515px;
-gap: 0px;
-border-radius: 62px 62px 62px 62px;
-border: 1px 0px 0px 0px;
-opacity: 0px;   
-}
-
-.svg1 {
-    display:flex;
+    height: 515px;
+    border-radius: 62px 62px 62px 62px;
+    border: 1px 0px 0px 0px;
+  }
+  
+  .svg1 {
+    display: flex;
     justify-content: space-between;
-}
-
-.lolll {
-width: 344.66px;
-height: 296.39px;
-top: 21.02px;
-left: 21px;
-gap: 0px;
-opacity: 0px;
-width: 345px;
-height: 296px;
-top: -0.02px;
-gap: 0px;
-border-radius: 45px 45px 0px 0px;
-opacity: 0px;
-}
-
-.kkkk {
-    font-family: DM Serif Display;
-font-size: 25px;
-font-weight: 400;
-line-height: 35px;
-letter-spacing: 0.5px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-}
-
-.small {
+  }
+  
+  .lolll {
+    width: 344.66px;
+    height: 296.39px;
+    top: 21.02px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
+    width: 345px;
+    height: 296px;
+    top: -0.02px;
+    gap: 0px;
+    border-radius: 45px 45px 0px 0px;
+    opacity: 0px;
+  }
+  
+  .kkkk {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .small {
     font-family: Jost;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.2199999988079071px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-}
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+  }
