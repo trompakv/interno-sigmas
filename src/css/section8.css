@@ -1,167 +1,135 @@
-.div2 {
-    gap: 20px;
-    flex-basis: calc((100%-20px) / 3);
-    padding: 0 50px;
-    
-  }
-
-.divsection {
-    display: flex;
-    justify-content: space-between;
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.divsection2 {
-    display: flex;
-    justify-content: space-between;
+.div1__h1 {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+  letter-spacing: 0.2199999988079071px;
+  text-align: center;
 }
-  
-  .div1__h1 {
-    font-family: "DM Serif Display", serif;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 62.4px;
-    letter-spacing: 0.21px;
-    text-align: center;
-    color: #292f36;
-    padding-bottom: 20px;
-  }
-  
-  .div1__text {
-    width: 590px;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.21px;
-    text-align: center;
-    margin: 0 auto;
-    color: #4d5053;
-    padding-bottom: 70px;
-  }
-  
-  .Kitchen_design {
-    display: inline-block;
-    border: 1px solid #e7e7e7;
-    padding: 10px;
-    max-width: 90%;
-    text-align: left;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border-radius: 62px;
-    width: 387px;
-    padding: 20px;
-    width: 387px;
-    height: 515px;
-    border-radius: 62px 62px 62px 62px;
-    border: 1px 0px 0px 0px;
-  }
-  
-  .img1 {
-    width: 345px;
-    height: 296px;
-    top: -0.02px;
-    gap: 0px;
-    border-radius: 45px 45px 0px 0px;
-    opacity: 0px;
-  }
-  
-  .Living_room {
-    display: inline-block;
-    border: 1px solid #e7e7e7;
-    padding: 10px;
-    max-width: 90%;
-    text-align: left;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border-radius: 62px;
-    width: 387px;
-    padding: 20px;
-    width: 387px;
-    height: 515px;
-    gap: 0px;
-    border-radius: 62px 62px 62px 62px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    text-align: left;
-  }
-  
-  .img2 {
-    width: 345px;
-    height: 296px;
-    top: -0.02px;
-    gap: 0px;
-    border-radius: 45px 45px 0px 0px;
-    opacity: 0px;
-  }
-  
-  .img3 {
-    width: 345px;
-    height: 296px;
-    top: -0.02px;
-    gap: 0px;
-    border-radius: 45px 45px 0px 0px;
-    opacity: 0px;
-  }
-  
-  .arrow {
-    width: 40px;
-    height: 30px;
-    top: 9.59px;
-    left: 293px;
-    gap: 0px;
-    opacity: 0px;
-    text-align: left;
-  }
-  
-  .Minimal_interior {
-    display: inline-block;
-    border: 1px solid #e7e7e7;
-    padding: 10px;
-    max-width: 90%;
-    text-align: left;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border-radius: 62px;
-    width: 387px;
-    padding: 20px;
-    width: 387px;
-    height: 515px;
-    border-radius: 62px 62px 62px 62px;
-    border: 1px 0px 0px 0px;
-  }
-  
-  .svg1 {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .lolll {
-    width: 344.66px;
-    height: 296.39px;
-    top: 21.02px;
-    left: 21px;
-    gap: 0px;
-    opacity: 0px;
-    width: 345px;
-    height: 296px;
-    top: -0.02px;
-    gap: 0px;
-    border-radius: 45px 45px 0px 0px;
-    opacity: 0px;
-  }
-  
-  .kkkk {
-    font-family: "DM Serif Display", serif;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0.5px;
-    text-align: left;
-  }
-  .small {
-    font-family: Jost;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.2199999988079071px;
-    text-align: left;
-  }
+
+.div1__text {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.2199999988079071px;
+  text-align: center;
+  width: 580px;
+}
+
+.div {
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  border-radius: 62px 62px 62px 62px;
+  border: 1px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.miau {
+  background-image: url(img/image8.1.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.miau1 {
+  background-image: url(img/image8.2.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.miau2 {
+  background-image: url(img/image8.3.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.miau3 {
+  background-image: url(img/image8.4.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.maiu4 {
+  background-image: url(img/image8.5.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.miau5 {
+  background-image: url(img/image8.6.png);
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 296px;
+}
+
+.p {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2199999988079071px;
+  color: #ffffff;
+  padding: 232px 206px 40px 34px;
+}
+
+.text1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  color: #292f36;
+  width: 334px;
+}
+.stretch {
+  display: flex;
+  gap: 148px;
+}
+
+.text2 {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2199999988079071px;
+  color: #4d5053;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: #f4f0ec;
+}
+.arrow:hover {cursor: pointer;
+  box-shadow: -3px 0px 30px 11px rgba(205, 162, 116, 0.75);
+}
+.tot {
+  padding: 18px 21px 18px 22px;
+}
+.imgsrc {
+  width: 345px;
+height: 296px;
+top: -0.02px;
+gap: 0px;
+border-radius: 45px 45px 0px 0px;
+opacity: 0px;
+
+}
